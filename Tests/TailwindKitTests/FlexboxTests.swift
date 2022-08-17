@@ -1,7 +1,7 @@
 import XCTest
 @testable import TailwindKit
 
-final class TailwindKitTests: XCTestCase {
+final class FlexboxTests: XCTestCase {
     func testFlexboxFlex() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
