@@ -1,5 +1,5 @@
 name: Test Package
-on: [push, pull_request, workflow_dispatch]
+on: [push, workflow_dispatch]
 jobs:
   build:
     runs-on: macos-12
