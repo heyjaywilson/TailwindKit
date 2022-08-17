@@ -18,7 +18,7 @@ if danger.github.pullRequest.title.contains("WIP") {
     warn("PR is classed as Work in Progress")
 }
 
-if danger.github.pullRequest.changedFiles >= PRThreshold {
+if danger.github.pullRequest.changedFiles! >= PRThreshold {
     fail("PR is too big, please break it up into smaller pull requests")
 }
 
