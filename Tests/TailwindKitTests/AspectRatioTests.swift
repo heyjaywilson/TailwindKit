@@ -14,4 +14,11 @@ final class AspectRatioTests: XCTestCase {
         let expectedOutput = "aspect-auto"
         XCTAssertEqual(sut.aspectRatio(), expectedOutput)
     }
+
+    func testAspectRatioSquare() throws {
+        let sut = Tailwind.self
+        let expectedOutput = "aspect-square"
+
+        XCTAssertEqual(sut.aspectRatio(.square), expectedOutput)
+    }
 }
