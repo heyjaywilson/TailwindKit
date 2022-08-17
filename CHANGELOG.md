@@ -7,10 +7,10 @@
 - Flexbox properties
 - Aspect-ratio properties
 - Breakpoint capabilities
-- Changelog file #1 by @maeganwilson
-- Changelog guidelines #1 by @maeganwilson
-- Contributing guidelines #1 by @maeganwilson
-- Danger #1 by @maeganwilson
+- Changelog file #2 by @maeganwilson
+- Changelog guidelines #2 by @maeganwilson
+- Contributing guidelines #2 by @maeganwilson
+- Danger #2 by @maeganwilson
 
 ## Released
 
