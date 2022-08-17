@@ -4,7 +4,7 @@ public struct Tailwind {
     public init() {
     }
 
-    static func flex(_ props: [FlexBox]) -> String {
+    public static func flex(_ props: [FlexBox]) -> String {
         return "\(props.map({$0.rawValue}).joined(separator: " "))"
     }
 }
