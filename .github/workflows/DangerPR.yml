@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: run tests
-        run: swift tests
+        run: swift test
       - name: install danger
         run: brew install danger/tap/danger-swift
       - name: Run Danger
