@@ -5,8 +5,6 @@ jobs:
     runs-on: macos-12
     steps:
       - uses: actions/checkout@v3
-      - name: run tests
-        run: swift test
       - name: install danger
         run: brew install danger/tap/danger-swift
       - name: Run Danger
